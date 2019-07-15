@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "362116820161",
+    "firebase_url": "https://car-hiring-afb10.firebaseio.com",
+    "project_id": "car-hiring-afb10",
+    "storage_bucket": "car-hiring-afb10.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:362116820161:android:6d8a97d900191331",
+        "android_client_info": {
+          "package_name": "com.example.googlemaptest"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "362116820161-ff4vo9m4q3e9sn1166akmeb95bshhhp6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.googlemaptest",
+            "certificate_hash": "2a65feb2d5267c73a053d8f88ec9a30884a75491"
+          }
+        },
+        {
+          "client_id": "362116820161-o2kvrbt8pch5sa2vcq3vd5682l1r3i40.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDdc0KYKTaoitLNLqKL4yqMwBvOG8NvRoY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "362116820161-o2kvrbt8pch5sa2vcq3vd5682l1r3i40.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

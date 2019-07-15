@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="25dp"
+    android:layout_marginRight="25dp"
+    android:layout_marginBottom="25dp"
+    android:layout_marginLeft="30dp"
+    >
+
+  <RelativeLayout
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginLeft="-20dp"
+      android:layout_marginTop="-10dp"
+      >
+
+      <android.support.v7.widget.Toolbar
+          android:id="@+id/drawerToolbar"
+          android:layout_width="70dp"
+          android:layout_height="60dp"
+          android:background="@color/Black"
+          android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+  </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/searchLocation"
+            android:layout_margin="15dp"
+            android:hint="Search Location"
+            android:padding="10dp"
+            />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/source"
+            android:layout_margin="15dp"
+            android:hint="Source"
+            android:padding="10dp"
+            android:visibility="invisible"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/destination"
+            android:layout_margin="15dp"
+            android:padding="10dp"
+            android:hint="Destination"
+            android:visibility="invisible"/>
+    </LinearLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="400dp"
+        android:layout_marginLeft="275dp"
+        android:padding="5dp">
+        <ImageView
+            android:id="@+id/imgMyLocation"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/location" />
+    </RelativeLayout>
+
+
+
+</RelativeLayout>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="180dp"
+    android:background="@color/colorPrimaryDark">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="56dp"
+        android:layout_height="56dp"
+        android:src="@drawable/person"
+        android:id="@+id/userPicture"
+        android:padding="2dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="20dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Jhon Abraham"
+        android:textSize="18dp"
+        android:padding="2dp"
+        android:textColor="@color/white"
+        android:id="@+id/userName"
+        android:layout_marginLeft="20dp"
+        android:gravity="center"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="jhon.abraham@gmail.com"
+        android:textSize="15dp"
+        android:textColor="@color/white"
+        android:padding="2dp"
+        android:id="@+id/userEmail"
+        android:layout_marginLeft="20dp"/>
+
+
+</LinearLayout>
